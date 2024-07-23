@@ -2,7 +2,7 @@
 title: "![HEMDIG(pt)](logo.png)"
 subtitle: "Construindo um framework para hemerotecas digitais em português"
 author: Eric Brasil (IHL/UNILAB)
-date: 2024-07-26
+institute: "ANPUH-BA, 26 de julho de 2024"
 lang: pt-BR
 format:
   revealjs: 
