@@ -1,0 +1,324 @@
+---
+title: "![HEMDIG(pt)](logo.png)"
+subtitle: "Construindo um framework para hemerotecas digitais em português"
+author: Eric Brasil (IHL/UNILAB)
+date: "2024-07-26"
+format:
+  revealjs: 
+    theme: white
+    slide-number: true
+    incremental: true 
+    chalkboard: 
+      buttons: true
+    preview-links: auto
+    logo: logo.png
+    #css: styles.css
+    footer: "<a href=https://ericbrasiln.github.io/>Eric Brasil</a> | <a href=https://ericbrasiln.github.io/hemdig-framework/>HEMDIG(pt) Framework</a>"
+---
+## HEMDIG(pt) {.center}
+
+#### Um Framework para Coletar, Organizar e Processar Páginas de Jornais Digitalizados em Português 
+
+::: {.notes}
+Primeiramente, eu gostaria de agradecer à Joana e ao Daniel pelo convite para participar deste evento. É um prazer estar aqui e apresentar esta pesquisa desenvolvida no ano passado no DH Lab da Universidade NOVA de Lisboa. HemDig(pt) é um framework que desenvolvi para lidar com jornais digitalizados, e a ideia aqui é fornecer um resumo do que foi feito, os desafios enfrentados e os resultados obtidos.
+:::
+
+---
+
+## Motivação {.center}
+
+- Jornais Históricos
+- Desafios
+- Lacuna Atual
+- Objetivo
+
+::: {.notes}
+- **Jornais Históricos:** Nos últimos anos, observei o crescente uso dessas fontes em pesquisas no Brasil, especialmente com a popularização da Hemeroteca Digital Brasileira, uma iniciativa da Biblioteca Nacional do Brasil. Muitos artigos de periódicos, teses e dissertações têm utilizado essas fontes para investigar vários aspectos da história do Brasil.
+
+Mas, ao mesmo tempo, há um silêncio metodológico sobre sua utilização: como a pesquisa é realizada, quais métodos são usados para processar esses objetos digitais e, além disso, como essas questões impactam epistemologicamente as pesquisas realizadas. Tenho pesquisado e publicado sobre essas questões, e HemDig(pt) é uma tentativa de sistematizar algumas dessas reflexões e colaborar com pesquisadores que lidam com jornais digitalizados.
+- **Desafios:** Grandes volumes, formatos diversos e qualidade variável. Desafios também relacionados às interfaces gráficas para acessar jornais digitalizados e as possibilidades de pesquisa que essas coleções oferecem.
+
+- **Lacuna Atual:** Poucos debates em português, poucos modelos treinados para OCR em português. Será que os repositórios de outros idiomas passam pelos mesmos problemas?
+
+- **Objetivo:** Desenvolver um framework abrangente para coleta e processamento eficiente de dados de jornais digitalizados em português.
+:::
+
+---
+
+## Histórico da Pesquisa: Histórico, Versionamento e Repositório {.center}
+
+- Histórico
+- Versionamento
+- Repositório
+- Licença: [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pt-br).
+
+::: {.notes}
+- **Histórico:** O framework HemDig(pt) foi desenvolvido para enfrentar os desafios de lidar com jornais digitalizados. Baseia-se em minhas pesquisas e publicações sobre o tema.
+
+- **Versionamento e repositório:** Todo o processo de pesquisa foi versionado usando Git e hospedado no GitHub. O framework é publicado como um JupyterBook, e o link está disponível no rodapé da apresentação.
+- **Licença:** O framework está disponível sob uma licença Creative Commons para uso não comercial.
+:::
+---
+
+## Fases do Framework HemDig(pt) {.center}
+
+1. Planejamento e Preparação
+2. Crítica dos Acervos
+3. Coleta de Dados
+4. Processamento de Dados
+5. Revisão, Preservação e Publicação
+
+::: {.notes}
+Vou apresentar cada uma das 5 fases, destacando os objetivos e características de cada uma delas. O objetivo é fornecer um panorama geral do framework e apontar alguns dos resultados obtidos em cada fase.
+:::
+
+---
+
+![Diagrama das Fases do Framework HemDig(pt)](https://github.com/ericbrasiln/hemdig-framework/blob/main/book/assets/images/full-diagram.png?raw=true)
+
+---
+
+## Fase 1: Planejamento e Preparação {.center}
+
+![Diagrama da Fase 1](https://ericbrasiln.github.io/hemdig-framework/_images/1fase_mermaid-diagram-2023-08-21-171600.png)
+
+::: {.notes}
+A primeira fase consiste no planejamento e preparação metodológica e técnica. Esta fase introduz um conjunto de ferramentas e estratégias para desenvolver conhecimentos e recursos básicos, garantindo que as fases subsequentes sejam executadas de forma mais eficiente e precisa.
+:::
+
+---
+
+## Fase 1: Planejamento e Preparação {.center}
+
+1. [Revisão da Literatura](https://ericbrasiln.github.io/hemdig-framework/part1/capitulo1/cap1.html)
+2. [Preparação Técnica Básica](https://ericbrasiln.github.io/hemdig-framework/part1/capitulo2/cap2.html)
+3. [Planejamento da Pesquisa](https://ericbrasiln.github.io/hemdig-framework/part1/capitulo3/cap3.html)
+
+::: {.notes}
+- **Revisão da Literatura:** Nesta etapa, apresento o Zotero como ferramenta para gerenciamento de referências bibliográficas; e a realização de um levantamento bibliográfico sobre temas relacionados com os jornais digitalizados nas bases Scopus e Web of Science. Como resultado, foi criada uma coleção chamada HEMDIG(pt) e adicionada à biblioteca pública de referências História Digital.
+
+- **Preparação Técnica Básica:** Neste capítulo, buscamos apresentar alguns tutoriais do Programming Historian organizados nos seguintes tópicos: Conhecimento Computacional Básico, Gestão de Dados e Escrita e Publicação.
+
+Não buscamos realizar um levantamento exaustivo de temáticas nem suprir as lacunas na formação, mas apontar caminhos e definir um mínimo de conhecimento técnico para iniciarmos a pesquisa.
+
+- **Planejamento da Pesquisa:** Além do levantamento bibliográfico e formação técnica mínima, como indicado nos capítulos 1 e 2, é importante definirmos, mesmo que de forma geral e preliminar, o planejamento específico voltado para documentação, organização, preservação e licenciamento da pesquisa.
+
+Em outras palavras, é essencial a elaboração de um Plano de Gerenciamento de Dados (DMP), que deve ser elaborado nessa primeira fase e atualizado ao longo do seu desenvolvimento.
+
+Aqui, discutimos os princípios FAIR, sistemas de controle de versão, ferramentas como Zotero, Tropy e licenciamento de dados.
+:::
+
+---
+
+![Coleção HEMDIG(pt) no Zotero](https://ericbrasiln.github.io/hemdig-framework/_images/print_bib_zot.png)
+
+<small>Acesse a coleção em ["História Digital" no zotero.org](https://www.zotero.org/groups/2216280/histria_digital/library)</small>
+
+---
+
+## Fase 2: Crítica dos Acervos {.center}
+
+![Diagrama da Fase 2](https://ericbrasiln.github.io/hemdig-framework/_images/2fase_mermaid-diagram-2023-08-21-172523.png)
+
+::: {.notes}
+A segunda fase envolve a avaliação crítica dos acervos e interfaces gráficas dos repositórios selecionados. Esta tarefa é crucial para entender os vieses, limitações e possibilidades de cada acervo, e para desenvolver estratégias metodológicas consistentes e reflexões teóricas alinhadas com os aspectos técnicos, políticos e teóricos de cada repositório.
+:::
+
+---
+
+## Fase 2: Crítica dos Acervos {.center}
+
+1. [Avaliação dos Repositórios](https://ericbrasiln.github.io/hemdig-framework/part2/capitulo4/cap4.html): Hemeroteca Digital Brasileira, Coleção de Jornais da Biblioteca Nacional Digital de Portugal, e Hemeroteca Municipal de Lisboa.
+2. [Análise das Interfaces Gráficas](https://ericbrasiln.github.io/hemdig-framework/part2/capitulo5/cap5.html)
+3. [Esforço Comparativo](https://ericbrasiln.github.io/hemdig-framework/part2/capitulo6/cap6.html)
+
+::: {.notes}
+- **Estudos de Caso:** Avaliação de três repositórios: Hemeroteca Digital Brasileira, Biblioteca Nacional Digital de Portugal, e Hemeroteca Municipal de Lisboa. Análise detalhada no Capítulo 4.
+
+Busquei apresentar os dados gerais de cada acervo e disponibilizar visualizações desses dados para que pesquisas futuras possam ser desenvolvidas. A caracterização geral dos acervos digitalizados dessas instituições não está atualmente disponível nas próprias interfaces de busca, o que afeta diretamente a pesquisa e a utilização desses acervos. Portanto, a apresentação organizada e gráfica desses dados, como realizado nesse capítulo, é uma contribuição para a pesquisa e a utilização desses acervos.
+
+- **Análise das Interfaces Gráficas:** Avaliação das interfaces gráficas dos repositórios selecionados usando o método do projeto Impresso. Detalhado no Capítulo 5.
+
+Realizei uma avaliação crítica de aspectos variados das interfaces gráficas de cada um dos acervos, a partir da metodologia proposta por Ehrmann, Bunout, e Düring [Ehrmann et al., 2019].
+
+Na pesquisa, as autoras e autores desenvolveram um amplo e denso formulário abarcando seis critérios de avaliação subdividido em cerca de 140 itens. Na pesquisa original, esse formulário foi aplicado em vinte e quatro interfaces gráficas de acervos de jornais históricos.
+
+O artigo apresenta resultados interessantes sobre os diferentes estágios de cada interface, assim como aponta para características comuns e limitações gerais. Entretanto, a pesquisa esteve centrada em repositórios na Europa Ocidental e Estados Unidos, e não incluiu nenhum acervo em língua portuguesa ou espanhola.
+
+Diante dessa característica, busquei aplicar o método sobre interfaces gráficas de acervos de jornais históricos em língua portuguesa.
+
+Realizei a tradução e adaptação do formulário e apliquei o mesmo sobre as interfaces gráficas dos acervos selecionados e constatei semelhanças importantes nos resultados obtidos.
+
+Esses resultados são apresentados no próximo capítulo.
+
+- **Esforço Comparativo:** Fornece elementos para comparar acervos e interfaces, incluindo dados e visualizações. Detalhado no Capítulo 6.
+:::
+
+---
+
+## Características dos Acervos {.center}
+
+- Viés Geográfico: Centralização no Rio de Janeiro e em Lisboa na HDB e BND-PT, respectivamente.
+- Viés Cronológico: Os acervos da HDB e BND-PT são concentrados nas últimas décadas do século XIX e primeira metade do século XX.
+- Língua: Os acervos são quase inteiramente compostos por jornais em português.
+
+---
+
+![Décadas do início da publicação (com mais de uma publicação no ano). Hemeroteca Digital Brasileira](https://raw.githubusercontent.com/ericbrasiln/hemdig-framework/main/repositorios/BND_BR/charts/fig5.png)
+
+---
+
+## Características das Interfaces {.center}
+
+- Crítica das Fontes: Presença de metadados importantes registrados e acessíveis.
+- Busca e Filtragem de Conteúdo: Capacidade razoável de busca de conteúdo e filtro de resultados.
+- Generosidade e Conectividade: Baixíssima possibilidade de descobrir novos conteúdos além de resultados em listas, integrar a pesquisa com outros repositórios.
+- Gerenciamento de Conteúdo do Usuário: Falta de funcionalidades para organizar, etiquetar, comparar e compartilhar resultados.
+
+::: {.notes}
+No gráfico dos critérios de alto nível proposto pela metodologia utilizada, podemos perceber a repetição dos padrões encontrados por Ehrmann, Bunout, e Düring [2019]:
+:::
+---
+
+![Gráfico dos Critérios de Alto Nível](https://ericbrasiln.github.io/hemdig-framework/_images/3cf9e815d40c251a73aa17eb58d3a8b41b79548afa417453e525e76c3bbecca3.png)
+
+<small>Veja mais comparações no [Capítulo 6](https://ericbrasiln.github.io/hemdig-framework/part2/capitulo6/cap6.html)</small>
+
+---
+
+## Fase 3: Coleta de Dados {.center}
+
+![Diagrama da Fase 3](https://ericbrasiln.github.io/hemdig-framework/_images/3fase_mermaid-diagram-2023-08-21-173800.png)
+
+::: {.notes}
+Nesta fase, delineamos estratégias para a coleta e organização de dados e metadados dos acervos estudados.
+:::
+
+---
+
+## Fase 3: Coleta de Dados {.center}
+
+1. [Relatórios e Documentação das Buscas](https://ericbrasiln.github.io/hemdig-framework/part3/capitulo7/sec71.html)
+2. [Scrapers de Dados](https://ericbrasiln.github.io/hemdig-framework/part3/capitulo8/cap8.html)
+3. [Organização dos Datasets](https://ericbrasiln.github.io/hemdig-framework/part3/capitulo9/cap9.html)
+
+::: {.notes}
+- **Relatórios e Documentação das Buscas:** Importância da documentação consistente e registro metodológico.
+
+Para isso, criei pequenos scripts em Python para gerar relatórios de busca, que funcionam como ferramentas de apoio metodológico. Esses scripts registram dados sobre os repositórios, as buscas realizadas, os critérios utilizados e os resultados obtidos. Esses relatórios são gerados automaticamente e podem ser utilizados para documentar e registrar o processo de busca, facilitando a replicação e a revisão da pesquisa.
+
+- **Scrapers de Dados:** Ferramentas e estratégias para coleta de metadados e dados.
+
+Quando não possuímos políticas de dados abertos ou APIs para acesso aos dados, é necessário desenvolver estratégias de raspagem de dados.
+
+Para coletar dados da HDB, recomenda-se o uso do pyHDB, uma ferramenta escrita em Python que permite buscar e baixar dados da HDB. A ferramenta coleta os metadados das buscas e faz download das imagens das páginas com ocorrências dos termos pesquisados (quando permitido pelos direitos autorais).
+
+Criei também um scraper para a Biblioteca Digital de Portugal e a Hemeroteca Digital de Lisboa: Coletar dados e metadados utilizando Selenium e Beautiful Soup.
+
+- **Organização dos Datasets:** Estratégias para organizar os dados coletados.
+:::
+
+---
+
+![pyHDB](https://raw.githubusercontent.com/ericbrasiln/pyHDB/main/img/1.png)
+
+<small>Acesse a ferramenta em [https://ericbrasiln.github.io/pyHDB/](https://ericbrasiln.github.io/pyHDB/)</small>
+
+---
+
+## Fase 4: Processamento de Dados {.center}
+
+![Diagrama da Fase 4](https://ericbrasiln.github.io/hemdig-framework/_images/4fase_mermaid-diagram-2023-08-21-225902.png)
+
+::: {.notes}
+Esta fase organiza tutoriais, documentação e ferramentas para a execução de OCR (Reconhecimento Óptico de Caracteres) e OLR (Reconhecimento Óptico de Layout) em jornais digitalizados em português.
+
+Esta fase organiza tutoriais, documentação e ferramentas para a execução de OCR (Reconhecimento Óptico de Caracteres) e OLR (Reconhecimento Óptico de Layout) em jornais digitalizados em português.
+:::
+
+---
+
+## Fase 4: Processamento de Dados {.center}
+
+1. [Definição de Estratégias: Volume e Qualidade dos Dados](https://ericbrasiln.github.io/hemdig-framework/part4/capitulo10/cap10.html)
+2. [Ferramentas CLI: Tesseract, OCR-D, Kraken](https://ericbrasiln.github.io/hemdig-framework/part4/capitulo12/cap12.html)
+3. [Ferramentas GUI: gImageReader](https://ericbrasiln.github.io/hemdig-framework/part4/capitulo13/cap13.html)
+4. [Lições do Programming Historian](https://ericbrasiln.github.io/hemdig-framework/part4/capitulo11/cap11.html)
+
+::: {.notes}
+Realizamos uma série de testes com diferentes ferramentas, desde CLI (Interface de Linha de Comando) até GUI (Interface Gráfica de Usuário), e com diferentes níveis de complexidade. Também listamos uma série de lições do Programming Historian que são úteis para quem busca realizar OCR em jornais.
+
+Este capítulo está dividido da seguinte forma:
+
+- Ferramentas CLI: Ferramentas de Linha de Comando, nomeadamente Tesseract, OCR-D e Kraken.
+- Ferramentas GUI: Ferramentas com Interface Gráfica de Usuário, nomeadamente gImageReader.
+- Lições do Programming Historian
+
+Para cada um desses tópicos, apresentamos um conjunto de tutoriais, documentação, testes e resultados obtidos.
+
+Nosso objetivo, mais do que fornecer um guia passo a passo para o uso de cada ferramenta, é apresentar as principais características, vantagens e desvantagens, e promover a reflexão crítica sobre seu uso.
+
+Como todo o framework, visamos fornecer aos pesquisadores conhecimentos e materiais para desenvolverem conscientemente e criticamente seus fluxos de trabalho.
+:::
+
+---
+
+![Tabela comparando os resultados do OCR-d](ocr_table.png)
+
+---
+
+![Captura de tela do gImageReader](https://ericbrasiln.github.io/hemdig-framework/_images/gir_layout_be03_ocr-d_2023-08-10_11-13-18.png)
+
+---
+
+## Fase 5: Revisão, Preservação e Publicação {.center}
+
+![Diagrama da Fase 5](https://ericbrasiln.github.io/hemdig-framework/_images/5fase_mermaid-diagram-2023-08-21-225829.png)
+
+::: {.notes}
+Nesta fase final do framework, o objetivo é realizar uma revisão abrangente da documentação, metadados e estrutura dos dados, bem como publicar os dados da pesquisa.
+:::
+
+---
+
+## Fase 5: Revisão, Preservação e Publicação {.center}
+
+1. [Consolidação da Documentação](https://ericbrasiln.github.io/hemdig-framework/part5/capitulo14/cap14.html)
+2. [Revisão dos Dados e Metadados](https://ericbrasiln.github.io/hemdig-framework/part5/capitulo15/cap15.html)
+3. [Publicação dos Dados](https://ericbrasiln.github.io/hemdig-framework/part5/capitulo16/cap16.html)
+
+::: {.notes}
+1. Revisão e Consolidação
+  - Realizar uma revisão completa da documentação e dos metadados.
+  - Consolidar a estrutura dos dados para preservação e acessibilidade a longo prazo.
+
+2. Processo Contínuo
+  - Enfatizar que esta fase é uma continuação e consolidação de um processo que começou na Fase 1.
+  - A documentação e o registro metodológico devem ser realizados concomitantemente à seleção, coleta, processamento e análise dos dados.
+  - Isso deve ser feito de forma transparente e padronizada, aderindo a critérios claramente definidos e publicizados.
+
+3. Referência à Fase 1
+  - Recomendar a revisão da Fase 1 para aspectos-chave da documentação e registro metodológico.
+
+4. Publicação dos Dados
+  - Enfatizar a importância de tornar os dados da pesquisa acessíveis para pesquisas e análises futuras.
+  - Destacar os benefícios das práticas de dados abertos e o potencial para colaboração e troca de conhecimentos.
+:::
+
+---
+
+## Conclusão {.center}
+
+- Importância de reflexões metodológicas
+- Demanda por formação técnica
+- Centralidade de uma abordagem colaborativa e interdisciplinar
+- Debate e colaboração com instituições arquivísticas
+- Subsidiar novas pesquisas utilizando essas fontes
+
+---
+
+## Obrigado! {.center}
+
+- [Framework HEMDIG(pt)](https://ericbrasiln.github.io/hemdig-framework/)
+- [Eric Brasil](https://ericbrasiln.github.io/)
+- [Entre em contato!](https://ericbrasiln.github.io/contact/)
