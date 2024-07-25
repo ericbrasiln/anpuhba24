@@ -75,13 +75,13 @@ Vou apresentar cada uma das 5 fases, destacando os objetivos e características 
 
 ---
 
-![Diagrama das Fases do *Framework* HemDig(pt)](https://github.com/ericbrasiln/hemdig-*framework*/blob/main/book/assets/images/full-diagram.png?raw=true)
+![Diagrama das Fases do *Framework* HemDig(pt)](https://github.com/ericbrasiln/hemdig-framework/blob/main/book/assets/images/full-diagram.png?raw=true)
 
 ---
 
 ## Fase 1: Planejamento e Preparação {.center}
 
-![Diagrama da Fase 1](https://ericbrasil.com.br/hemdig-*framework*/_images/1fase_mermaid-diagram-2023-08-21-171600.png)
+![Diagrama da Fase 1](https://ericbrasil.com.br/hemdig-framework/_images/1fase_mermaid-diagram-2023-08-21-171600.png)
 
 ::: {.notes}
 A primeira fase consiste no planejamento e preparação metodológica e técnica. Esta fase introduz um conjunto de ferramentas e estratégias para desenvolver conhecimentos e recursos básicos, garantindo que as fases subsequentes sejam executadas de forma mais eficiente e precisa.
@@ -91,9 +91,9 @@ A primeira fase consiste no planejamento e preparação metodológica e técnica
 
 ## Fase 1: Planejamento e Preparação {.center}
 
-1. [Revisão da Literatura](https://ericbrasil.com.br/hemdig-*framework*/part1/capitulo1/cap1.html)
-2. [Preparação Técnica Básica](https://ericbrasil.com.br/hemdig-*framework*/part1/capitulo2/cap2.html)
-3. [Planejamento da Pesquisa](https://ericbrasil.com.br/hemdig-*framework*/part1/capitulo3/cap3.html)
+1. [Revisão da Literatura](https://ericbrasil.com.br/hemdig-framework/part1/capitulo1/cap1.html)
+2. [Preparação Técnica Básica](https://ericbrasil.com.br/hemdig-framework/part1/capitulo2/cap2.html)
+3. [Planejamento da Pesquisa](https://ericbrasil.com.br/hemdig-framework/part1/capitulo3/cap3.html)
 
 ::: {.notes}
 - **Revisão da Literatura:** Nesta etapa, apresento o Zotero como ferramenta para gerenciamento de referências bibliográficas; e a realização de um levantamento bibliográfico sobre temas relacionados com os jornais digitalizados nas bases Scopus e Web of Science. Como resultado, foi criada uma coleção chamada HEMDIG(pt) e adicionada à biblioteca pública de referências História Digital.
@@ -111,7 +111,7 @@ Aqui, discutimos os princípios FAIR, sistemas de controle de versão, ferrament
 
 ---
 
-![Coleção HEMDIG(pt) no Zotero](https://ericbrasil.com.br/hemdig-*framework*/_images/print_bib_zot.png)
+![Coleção HEMDIG(pt) no Zotero](https://ericbrasil.com.br/hemdig-framework/_images/print_bib_zot.png)
 
 <small>Acesse a coleção em ["História Digital" no zotero.org](https://www.zotero.org/groups/2216280/histria_digital/library)</small>
 
@@ -119,7 +119,7 @@ Aqui, discutimos os princípios FAIR, sistemas de controle de versão, ferrament
 
 ## Fase 2: Crítica dos Acervos {.center}
 
-![Diagrama da Fase 2](https://ericbrasil.com.br/hemdig-*framework*/_images/2fase_mermaid-diagram-2023-08-21-172523.png)
+![Diagrama da Fase 2](https://ericbrasil.com.br/hemdig-framework/_images/2fase_mermaid-diagram-2023-08-21-172523.png)
 
 ::: {.notes}
 A segunda fase envolve a avaliação crítica dos acervos e interfaces gráficas dos repositórios selecionados. Esta tarefa é crucial para entender os vieses, limitações e possibilidades de cada acervo, e para desenvolver estratégias metodológicas consistentes e reflexões teóricas alinhadas com os aspectos técnicos, políticos e teóricos de cada repositório.
@@ -130,8 +130,8 @@ A segunda fase envolve a avaliação crítica dos acervos e interfaces gráficas
 ## Fase 2: Crítica dos Acervos {.center}
 
 1. [Avaliação dos Repositórios](https://ericbrasil.com.br/hemdig-*framework*/part2/capitulo4/cap4.html): Hemeroteca Digital Brasileira, Coleção de Jornais da Biblioteca Nacional Digital de Portugal, e Hemeroteca Municipal de Lisboa.
-2. [Análise das Interfaces Gráficas](https://ericbrasil.com.br/hemdig-*framework*/part2/capitulo5/cap5.html)
-3. [Esforço Comparativo](https://ericbrasil.com.br/hemdig-*framework*/part2/capitulo6/cap6.html)
+2. [Análise das Interfaces Gráficas](https://ericbrasil.com.br/hemdig-framework/part2/capitulo5/cap5.html)
+3. [Esforço Comparativo](https://ericbrasil.com.br/hemdig-framework/part2/capitulo6/cap6.html)
 
 ::: {.notes}
 - **Estudos de Caso:** Avaliação de três repositórios: Hemeroteca Digital Brasileira, Biblioteca Nacional Digital de Portugal, e Hemeroteca Municipal de Lisboa. Análise detalhada no Capítulo 4.
@@ -165,7 +165,7 @@ Esses resultados são apresentados no próximo capítulo.
 
 ---
 
-![Décadas do início da publicação (com mais de uma publicação no ano). Hemeroteca Digital Brasileira](https://raw.githubusercontent.com/ericbrasiln/hemdig-*framework*/main/repositorios/BND_BR/charts/fig5.png)
+![Décadas do início da publicação (com mais de uma publicação no ano). Hemeroteca Digital Brasileira](https://raw.githubusercontent.com/ericbrasiln/hemdig-framework/main/repositorios/BND_BR/charts/fig5.png)
 
 ---
 
@@ -181,15 +181,15 @@ No gráfico dos critérios de alto nível proposto pela metodologia utilizada, p
 :::
 ---
 
-![Gráfico dos Critérios de Alto Nível](https://ericbrasil.com.br/hemdig-*framework*/_images/3cf9e815d40c251a73aa17eb58d3a8b41b79548afa417453e525e76c3bbecca3.png)
+![Gráfico dos Critérios de Alto Nível](https://ericbrasil.com.br/hemdig-framework/_images/3cf9e815d40c251a73aa17eb58d3a8b41b79548afa417453e525e76c3bbecca3.png)
 
-<small>Veja mais comparações no [Capítulo 6](https://ericbrasil.com.br/hemdig-*framework*/part2/capitulo6/cap6.html)</small>
+<small>Veja mais comparações no [Capítulo 6](https://ericbrasil.com.br/hemdig-framework/part2/capitulo6/cap6.html)</small>
 
 ---
 
 ## Fase 3: Coleta de Dados {.center}
 
-![Diagrama da Fase 3](https://ericbrasil.com.br/hemdig-*framework*/_images/3fase_mermaid-diagram-2023-08-21-173800.png)
+![Diagrama da Fase 3](https://ericbrasil.com.br/hemdig-framework/_images/3fase_mermaid-diagram-2023-08-21-173800.png)
 
 ::: {.notes}
 Nesta fase, delineamos estratégias para a coleta e organização de dados e metadados dos acervos estudados.
@@ -199,9 +199,9 @@ Nesta fase, delineamos estratégias para a coleta e organização de dados e met
 
 ## Fase 3: Coleta de Dados {.center}
 
-1. [Relatórios e Documentação das Buscas](https://ericbrasil.com.br/hemdig-*framework*/part3/capitulo7/sec71.html)
-2. [Scrapers de Dados](https://ericbrasil.com.br/hemdig-*framework*/part3/capitulo8/cap8.html)
-3. [Organização dos Datasets](https://ericbrasil.com.br/hemdig-*framework*/part3/capitulo9/cap9.html)
+1. [Relatórios e Documentação das Buscas](https://ericbrasil.com.br/hemdig-framework/part3/capitulo7/sec71.html)
+2. [Scrapers de Dados](https://ericbrasil.com.br/hemdig-framework/part3/capitulo8/cap8.html)
+3. [Organização dos Datasets](https://ericbrasil.com.br/hemdig-framework/part3/capitulo9/cap9.html)
 
 ::: {.notes}
 - **Relatórios e Documentação das Buscas:** Importância da documentação consistente e registro metodológico.
@@ -229,7 +229,7 @@ Criei também um scraper para a Biblioteca Digital de Portugal e a Hemeroteca Di
 
 ## Fase 4: Processamento de Dados {.center}
 
-![Diagrama da Fase 4](https://ericbrasil.com.br/hemdig-*framework*/_images/4fase_mermaid-diagram-2023-08-21-225902.png)
+![Diagrama da Fase 4](https://ericbrasil.com.br/hemdig-framework/_images/4fase_mermaid-diagram-2023-08-21-225902.png)
 
 ::: {.notes}
 Esta fase organiza tutoriais, documentação e ferramentas para a execução de OCR (Reconhecimento Óptico de Caracteres) e OLR (Reconhecimento Óptico de Layout) em jornais digitalizados em português.
@@ -241,10 +241,10 @@ Esta fase organiza tutoriais, documentação e ferramentas para a execução de 
 
 ## Fase 4: Processamento de Dados {.center}
 
-1. [Definição de Estratégias: Volume e Qualidade dos Dados](https://ericbrasil.com.br/hemdig-*framework*/part4/capitulo10/cap10.html)
-2. [Ferramentas CLI: Tesseract, OCR-D, Kraken](https://ericbrasil.com.br/hemdig-*framework*/part4/capitulo12/cap12.html)
-3. [Ferramentas GUI: gImageReader](https://ericbrasil.com.br/hemdig-*framework*/part4/capitulo13/cap13.html)
-4. [Lições do Programming Historian](https://ericbrasil.com.br/hemdig-*framework*/part4/capitulo11/cap11.html)
+1. [Definição de Estratégias: Volume e Qualidade dos Dados](https://ericbrasil.com.br/hemdig-framework/part4/capitulo10/cap10.html)
+2. [Ferramentas CLI: Tesseract, OCR-D, Kraken](https://ericbrasil.com.br/hemdig-framework/part4/capitulo12/cap12.html)
+3. [Ferramentas GUI: gImageReader](https://ericbrasil.com.br/hemdig-framework/part4/capitulo13/cap13.html)
+4. [Lições do Programming Historian](https://ericbrasil.com.br/hemdig-framework/part4/capitulo11/cap11.html)
 
 ::: {.notes}
 Realizamos uma série de testes com diferentes ferramentas, desde CLI (Interface de Linha de Comando) até GUI (Interface Gráfica de Usuário), e com diferentes níveis de complexidade. Também listamos uma série de lições do Programming Historian que são úteis para quem busca realizar OCR em jornais.
@@ -268,13 +268,13 @@ Como todo o *framework*, visamos fornecer aos pesquisadores conhecimentos e mate
 
 ---
 
-![Captura de tela do gImageReader](https://ericbrasil.com.br/hemdig-*framework*/_images/gir_layout_be03_ocr-d_2023-08-10_11-13-18.png)
+![Captura de tela do gImageReader](https://ericbrasil.com.br/hemdig-framework/_images/gir_layout_be03_ocr-d_2023-08-10_11-13-18.png)
 
 ---
 
 ## Fase 5: Revisão, Preservação e Publicação {.center}
 
-![Diagrama da Fase 5](https://ericbrasil.com.br/hemdig-*framework*/_images/5fase_mermaid-diagram-2023-08-21-225829.png)
+![Diagrama da Fase 5](https://ericbrasil.com.br/hemdig-framework/_images/5fase_mermaid-diagram-2023-08-21-225829.png)
 
 ::: {.notes}
 Nesta fase final do *framework*, o objetivo é realizar uma revisão abrangente da documentação, metadados e estrutura dos dados, bem como publicar os dados da pesquisa.
@@ -284,9 +284,9 @@ Nesta fase final do *framework*, o objetivo é realizar uma revisão abrangente 
 
 ## Fase 5: Revisão, Preservação e Publicação {.center}
 
-1. [Consolidação da Documentação](https://ericbrasil.com.br/hemdig-*framework*/part5/capitulo14/cap14.html)
-2. [Revisão dos Dados e Metadados](https://ericbrasil.com.br/hemdig-*framework*/part5/capitulo15/cap15.html)
-3. [Publicação dos Dados](https://ericbrasil.com.br/hemdig-*framework*/part5/capitulo16/cap16.html)
+1. [Consolidação da Documentação](https://ericbrasil.com.br/hemdig-framework/part5/capitulo14/cap14.html)
+2. [Revisão dos Dados e Metadados](https://ericbrasil.com.br/hemdig-framework/part5/capitulo15/cap15.html)
+3. [Publicação dos Dados](https://ericbrasil.com.br/hemdig-framework/part5/capitulo16/cap16.html)
 
 ::: {.notes}
 1. Revisão e Consolidação
@@ -320,6 +320,6 @@ Nesta fase final do *framework*, o objetivo é realizar uma revisão abrangente 
 
 ## Obrigado! {.center}
 
-- [*Framework* HEMDIG(pt)](https://ericbrasil.com.br/hemdig-*framework*/)
+- [*Framework* HEMDIG(pt)](https://ericbrasil.com.br/hemdig-framework/)
 - [Eric Brasil](https://ericbrasil.com.br/)
 - [Entre em contato!](https://ericbrasil.com.br/contact/)
